@@ -1,9 +1,9 @@
 body{
-    width: 100px;
-    max-width: 100px;
+    width: 100%;
+    max-width: 100%;
 }
 .sub-navbar a{
-    display: inline-block;
+    text-decoration: none;
     font-weight: 700;
     color: black;
     position: relative;
@@ -26,10 +26,6 @@ body{
 .sub-navbar a:hover::after{
     transform: scaleX(1);
     transform-origin: bottom left;
-}
-.cover-image{
-    width: 552px;
-    height: 504px;
 }
 .headline{
     font-size: 64px;
@@ -54,4 +50,12 @@ body{
 .service-icon{
     width: 100px;
     height: 100px;
+}
+.service-name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.service-name-details{
+    font-size: 12px;
+    line-height: 18px;
 }
