@@ -1,3 +1,7 @@
+body{
+    width: 100px;
+    max-width: 100px;
+}
 .sub-navbar a{
     display: inline-block;
     font-weight: 700;
@@ -38,4 +42,12 @@
 }
 .header-btn-div{
     margin-top: 60px;
+}
+.service-headline{
+    font-size: 48px;
+    font-weight: 800;
+}
+.service-details{
+    font-size: 18px;
+    line-height: 32px;
 }
