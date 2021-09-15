@@ -1,0 +1,41 @@
+.sub-navbar a{
+    display: inline-block;
+    font-weight: 700;
+    color: black;
+    position: relative;
+}
+.sub-navbar a:hover{
+    color: black;
+}
+.sub-navbar a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ca0000;
+    transform-origin: bottom right;
+    transition: transform 1s ease;
+}
+.sub-navbar a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.cover-image{
+    width: 552px;
+    height: 504px;
+}
+.headline{
+    font-size: 64px;
+    font-weight: 700;
+}
+.sub-headline{
+    margin-top: 34px;
+    font-size: 16px;
+    color: #808080;
+}
+.header-btn-div{
+    margin-top: 60px;
+}
