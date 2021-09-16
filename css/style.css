@@ -59,3 +59,37 @@ body{
     font-size: 12px;
     line-height: 18px;
 }
+.checkbox:checked{
+    background-color: #cf0021;
+    border-color: #cf0021;
+}
+.package-header{
+    font-size: 50px;
+    line-height: 60px;
+}
+.package-sub-header{
+    font-size: 25px;
+}
+.set-package{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.set-package:hover{
+    color: black;
+}
+.set-package-underlilne{
+    /* width: 50%; */
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    /* text-decoration: none; */
+    /* display: inline-block; */
+    color:#c4c4c4;
+    border: 2px solid #c4c4c4;
+    opacity: 1;
+}
+.basic-btn:hover + .basic-btn-hr,.premium-btn:hover + .premium-btn-hr{
+    color: rgb(182, 0, 0);
+    border: 2px solid rgb(182, 0, 0);
+}
