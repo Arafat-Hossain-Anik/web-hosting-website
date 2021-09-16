@@ -89,7 +89,11 @@ body{
     border: 2px solid #c4c4c4;
     opacity: 1;
 }
-.basic-btn:hover + .basic-btn-hr,.premium-btn:hover + .premium-btn-hr{
+/* .basic-btn:hover + .basic-btn-hr,.premium-btn:hover + .premium-btn-hr{
+    color: rgb(182, 0, 0);
+    border: 2px solid rgb(182, 0, 0);
+} */
+.active{
     color: rgb(182, 0, 0);
     border: 2px solid rgb(182, 0, 0);
 }
